@@ -40,7 +40,6 @@ a {
 
 .app {
   background: linear-gradient(90deg, #010202 0%, #010202 45%, rgba(1, 2, 2, 0.2) 90.9%);
-  background-size: contain;
   min-height: 100vh;
   color: white;
 }
@@ -114,8 +113,9 @@ a {
   .app {
     height: auto;
     padding-bottom: 700px;
-    background:url('/img/cover-image.jpg') no-repeat bottom center;
-    background-size: 80%;
+    background: url('/img/cover-image.jpg') bottom center;
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
   video {
     display: none;
