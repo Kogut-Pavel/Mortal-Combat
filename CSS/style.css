@@ -113,7 +113,7 @@ a {
   .app {
     height: auto;
     padding-bottom: 700px;
-    background: url('/img/cover-image.jpg') bottom center;
+    background: url('../img/cover-image.jpg') bottom center;
     background-repeat: no-repeat;
     background-size: 100%;
   }
