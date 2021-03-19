@@ -113,6 +113,7 @@ a {
   .app {
     height: auto;
     padding-bottom: 700px;
+  
     background: url('../img/cover-image.jpg') bottom center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -167,4 +168,27 @@ a {
   }
 }
 
+.modal {
+  display: none;
+  max-width: 450px;
+}
 
+.modal-title {
+  color: #000;
+}
+
+.modal-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.modal-button {
+  margin-top: 25px;
+  width: 100%;
+}
+
+.modal-text {
+  color: #000;
+}
